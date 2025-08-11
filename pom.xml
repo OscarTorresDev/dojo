@@ -5,7 +5,7 @@
     <artifactId>centrouniversitario</artifactId>
     <version>1</version>
     <packaging>war</packaging>
-    <name>centrouniversitario-1</name>
+    <name>MyDojoWebApp</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,9 +18,15 @@
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>${jakartaee}</version>
             <scope>provided</scope>
+        </dependency>        
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
         </dependency>
     </dependencies>
-    
+        
     <build>
         <plugins>
             <plugin>
